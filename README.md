@@ -1,2 +1,2 @@
 # TodoList
-Um todoList feito com javascript, html e css
+Um todoList é um projecto simples de todo feito com React.js
