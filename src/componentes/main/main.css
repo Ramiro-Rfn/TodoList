@@ -1,0 +1,110 @@
+#app{
+    width: 80%;
+    max-width: 800px;
+
+    margin: 5rem auto;
+    display: block;
+}
+
+#app .add-todo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#app  .add-todo input[type=text]{
+    width: 80%;
+    height: 5rem;
+    padding: 1.6rem;
+    border-radius: .6rem 0 0 .6rem;
+}
+
+::-webkit-input-placeholder{
+    color: #908e8e;
+}
+
+::-moz-placeholder{
+ color: #908e8e;
+}
+
+::placeholder{
+    color: #908e8e;
+}
+
+#app button.button-add{
+    color: #fff;
+    width: 20%;
+    background-color: crimson;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem;
+    border-radius: 0 0.6rem 0.6rem 0;
+}
+
+#app .todo-counter{
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+    display: flex;
+    width: 100%;
+}
+
+#app .todo-counter p{
+    text-align: end;
+    flex: 1;
+    margin-right: 0.8rem;
+    color: #908e8e;
+
+}
+
+#app ul{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #fff;
+    padding: 1.6rem 4rem;
+    border-radius: 0.6rem;
+}
+
+li{
+    /* background-color: indianred; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    text-transform: capitalize;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #f0e9e9;
+}
+li p{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+li p input[type="checkbox"]{
+    margin-right: 0.8rem ;
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+a{
+    color: #fff;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+button.deletebutton{
+    color: #fff;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+}
+
+img {
+    color: white;
+}

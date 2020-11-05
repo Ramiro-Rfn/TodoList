@@ -1,0 +1,20 @@
+
+:root{
+    font-size: 60%;
+}
+
+body{
+    width: 100vw;
+    background-color: #dee6e8;
+}
+
+*{
+    margin:  0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    font-family: 'Archivo', sans-serif;
+    text-decoration: none;
+}
